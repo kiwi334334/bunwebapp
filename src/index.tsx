@@ -15,7 +15,6 @@ app.get("/", () => {
   return (
     <BaseHTML>
       <h1 hx-get='/random' hx-trigger="every 1000ms" hx-swap="innerHTML"></h1>
-      <h1>hekllo</h1>
     </BaseHTML>
   )
 });
